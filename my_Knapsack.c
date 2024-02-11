@@ -36,7 +36,7 @@ int KnapSack(int weights[NUM_ITEMS], int values[NUM_ITEMS], int selected_bool[NU
 
 void scanItemsFromUser(char names[NUM_ITEMS], int values[NUM_ITEMS], int weights[NUM_ITEMS]){
     for(int i=0; i<NUM_ITEMS; i++){
-        scanf("%c" , &names[i]);
+        scanf(" %c" , &names[i]);
         scanf("%d", &values[i]);
         scanf("%d", &weights[i]);
     }
